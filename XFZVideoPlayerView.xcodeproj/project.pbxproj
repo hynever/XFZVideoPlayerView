@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47A9AAB25ADC8F12BC5C91C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 412489899019E4624F24D952 /* libPods.a */; };
+		BE46BDA71C6300910073D9E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDA61C6300910073D9E8 /* main.m */; };
+		BE46BDAA1C6300910073D9E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDA91C6300910073D9E8 /* AppDelegate.m */; };
+		BE46BDAD1C6300910073D9E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDAC1C6300910073D9E8 /* ViewController.m */; };
+		BE46BDB01C6300910073D9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE46BDAE1C6300910073D9E8 /* Main.storyboard */; };
+		BE46BDB21C6300910073D9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE46BDB11C6300910073D9E8 /* Assets.xcassets */; };
+		BE46BDB51C6300910073D9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE46BDB31C6300910073D9E8 /* LaunchScreen.storyboard */; };
+		BE46BDC01C6300910073D9E8 /* XFZVideoPlayerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDBF1C6300910073D9E8 /* XFZVideoPlayerViewTests.m */; };
+		BE46BDCB1C6300910073D9E8 /* XFZVideoPlayerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDCA1C6300910073D9E8 /* XFZVideoPlayerViewUITests.m */; };
+		BE46BDE51C6300990073D9E8 /* XFZVideoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDDA1C6300990073D9E8 /* XFZVideoOverlayView.m */; };
+		BE46BDE61C6300990073D9E8 /* XFZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDDC1C6300990073D9E8 /* XFZVideoPlayerController.m */; };
+		BE46BDE71C6300990073D9E8 /* XFZVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDDE1C6300990073D9E8 /* XFZVideoPlayerView.m */; };
+		BE46BDE81C6300990073D9E8 /* XFZVideoRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDE01C6300990073D9E8 /* XFZVideoRefreshView.m */; };
+		BE46BDE91C6300990073D9E8 /* XFZVideoTimeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDE21C6300990073D9E8 /* XFZVideoTimeSlider.m */; };
+		BE46BDEA1C6300990073D9E8 /* XFZVolumeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDE41C6300990073D9E8 /* XFZVolumeController.m */; };
+		BE46BE081C6300AE0073D9E8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE46BDEC1C6300AE0073D9E8 /* LICENSE */; };
+		BE46BE091C6300AE0073D9E8 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDEF1C6300AE0073D9E8 /* MASCompositeConstraint.m */; };
+		BE46BE0A1C6300AE0073D9E8 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDF21C6300AE0073D9E8 /* MASConstraint.m */; };
+		BE46BE0B1C6300AE0073D9E8 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDF41C6300AE0073D9E8 /* MASConstraintMaker.m */; };
+		BE46BE0C1C6300AE0073D9E8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDF61C6300AE0073D9E8 /* MASLayoutConstraint.m */; };
+		BE46BE0D1C6300AE0073D9E8 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDFA1C6300AE0073D9E8 /* MASViewAttribute.m */; };
+		BE46BE0E1C6300AE0073D9E8 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDFC1C6300AE0073D9E8 /* MASViewConstraint.m */; };
+		BE46BE0F1C6300AE0073D9E8 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BDFE1C6300AE0073D9E8 /* NSArray+MASAdditions.m */; };
+		BE46BE101C6300AE0073D9E8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BE011C6300AE0073D9E8 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BE46BE111C6300AE0073D9E8 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BE031C6300AE0073D9E8 /* View+MASAdditions.m */; };
+		BE46BE121C6300AE0073D9E8 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BE061C6300AE0073D9E8 /* ViewController+MASAdditions.m */; };
+		BE46BE131C6300AE0073D9E8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BE46BE071C6300AE0073D9E8 /* README.md */; };
+		BE46BF381C632C170073D9E8 /* UIColor+XFZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46BF371C632C170073D9E8 /* UIColor+XFZColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE46BDBC1C6300910073D9E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE46BD9A1C6300910073D9E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE46BDA11C6300910073D9E8;
+			remoteInfo = XFZVideoPlayerView;
+		};
+		BE46BDC71C6300910073D9E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE46BD9A1C6300910073D9E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE46BDA11C6300910073D9E8;
+			remoteInfo = XFZVideoPlayerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349A7BAEB7A3F366162FD17F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3D3F7B7EB59F2814C334E7A8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		412489899019E4624F24D952 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE46BDA21C6300910073D9E8 /* XFZVideoPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFZVideoPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE46BDA61C6300910073D9E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE46BDA81C6300910073D9E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE46BDA91C6300910073D9E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE46BDAB1C6300910073D9E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE46BDAC1C6300910073D9E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE46BDAF1C6300910073D9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE46BDB11C6300910073D9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE46BDB41C6300910073D9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE46BDB61C6300910073D9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE46BDBB1C6300910073D9E8 /* XFZVideoPlayerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFZVideoPlayerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE46BDBF1C6300910073D9E8 /* XFZVideoPlayerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFZVideoPlayerViewTests.m; sourceTree = "<group>"; };
+		BE46BDC11C6300910073D9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE46BDC61C6300910073D9E8 /* XFZVideoPlayerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFZVideoPlayerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE46BDCA1C6300910073D9E8 /* XFZVideoPlayerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFZVideoPlayerViewUITests.m; sourceTree = "<group>"; };
+		BE46BDCC1C6300910073D9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE46BDD91C6300990073D9E8 /* XFZVideoOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFZVideoOverlayView.h; sourceTree = "<group>"; };
+		BE46BDDA1C6300990073D9E8 /* XFZVideoOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFZVideoOverlayView.m; sourceTree = "<group>"; };
+		BE46BDDB1C6300990073D9E8 /* XFZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFZVideoPlayerController.h; sourceTree = "<group>"; };
+		BE46BDDC1C6300990073D9E8 /* XFZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFZVideoPlayerController.m; sourceTree = "<group>"; };
+		BE46BDDD1C6300990073D9E8 /* XFZVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFZVideoPlayerView.h; sourceTree = "<group>"; };
+		BE46BDDE1C6300990073D9E8 /* XFZVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFZVideoPlayerView.m; sourceTree = "<group>"; };
+		BE46BDDF1C6300990073D9E8 /* XFZVideoRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFZVideoRefreshView.h; sourceTree = "<group>"; };
+		BE46BDE01C6300990073D9E8 /* XFZVideoRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFZVideoRefreshView.m; sourceTree = "<group>"; };
+		BE46BDE11C6300990073D9E8 /* XFZVideoTimeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFZVideoTimeSlider.h; sourceTree = "<group>"; };
+		BE46BDE21C6300990073D9E8 /* XFZVideoTimeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFZVideoTimeSlider.m; sourceTree = "<group>"; };
+		BE46BDE31C6300990073D9E8 /* XFZVolumeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFZVolumeController.h; sourceTree = "<group>"; };
+		BE46BDE41C6300990073D9E8 /* XFZVolumeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFZVolumeController.m; sourceTree = "<group>"; };
+		BE46BDEC1C6300AE0073D9E8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE46BDEE1C6300AE0073D9E8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BE46BDEF1C6300AE0073D9E8 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		BE46BDF01C6300AE0073D9E8 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BE46BDF11C6300AE0073D9E8 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		BE46BDF21C6300AE0073D9E8 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		BE46BDF31C6300AE0073D9E8 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		BE46BDF41C6300AE0073D9E8 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		BE46BDF51C6300AE0073D9E8 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		BE46BDF61C6300AE0073D9E8 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BE46BDF71C6300AE0073D9E8 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		BE46BDF81C6300AE0073D9E8 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		BE46BDF91C6300AE0073D9E8 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		BE46BDFA1C6300AE0073D9E8 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		BE46BDFB1C6300AE0073D9E8 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		BE46BDFC1C6300AE0073D9E8 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		BE46BDFD1C6300AE0073D9E8 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BE46BDFE1C6300AE0073D9E8 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BE46BDFF1C6300AE0073D9E8 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BE46BE001C6300AE0073D9E8 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BE46BE011C6300AE0073D9E8 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		BE46BE021C6300AE0073D9E8 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		BE46BE031C6300AE0073D9E8 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		BE46BE041C6300AE0073D9E8 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BE46BE051C6300AE0073D9E8 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		BE46BE061C6300AE0073D9E8 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		BE46BE071C6300AE0073D9E8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE46BF341C6326B70073D9E8 /* XFZSinglenMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFZSinglenMacro.h; sourceTree = "<group>"; };
+		BE46BF361C632C170073D9E8 /* UIColor+XFZColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XFZColor.h"; sourceTree = "<group>"; };
+		BE46BF371C632C170073D9E8 /* UIColor+XFZColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XFZColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE46BD9F1C6300910073D9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A9AAB25ADC8F12BC5C91C4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE46BDB81C6300910073D9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE46BDC31C6300910073D9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE46BD991C6300910073D9E8 = {
+			isa = PBXGroup;
+			children = (
+				BE46BDA41C6300910073D9E8 /* XFZVideoPlayerView */,
+				BE46BDBE1C6300910073D9E8 /* XFZVideoPlayerViewTests */,
+				BE46BDC91C6300910073D9E8 /* XFZVideoPlayerViewUITests */,
+				BE46BDA31C6300910073D9E8 /* Products */,
+				CF1678BB0866570977238E6D /* Pods */,
+				E30ED7931985505A4D6997AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE46BDA31C6300910073D9E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BDA21C6300910073D9E8 /* XFZVideoPlayerView.app */,
+				BE46BDBB1C6300910073D9E8 /* XFZVideoPlayerViewTests.xctest */,
+				BE46BDC61C6300910073D9E8 /* XFZVideoPlayerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE46BDA41C6300910073D9E8 /* XFZVideoPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BF351C632C170073D9E8 /* UIColor+XFZColor */,
+				BE46BDEB1C6300AE0073D9E8 /* Masonry */,
+				BE46BDD81C6300990073D9E8 /* ViedoPlayerView */,
+				BE46BDA81C6300910073D9E8 /* AppDelegate.h */,
+				BE46BDA91C6300910073D9E8 /* AppDelegate.m */,
+				BE46BDAB1C6300910073D9E8 /* ViewController.h */,
+				BE46BDAC1C6300910073D9E8 /* ViewController.m */,
+				BE46BF341C6326B70073D9E8 /* XFZSinglenMacro.h */,
+				BE46BDAE1C6300910073D9E8 /* Main.storyboard */,
+				BE46BDB11C6300910073D9E8 /* Assets.xcassets */,
+				BE46BDB31C6300910073D9E8 /* LaunchScreen.storyboard */,
+				BE46BDB61C6300910073D9E8 /* Info.plist */,
+				BE46BDA51C6300910073D9E8 /* Supporting Files */,
+			);
+			path = XFZVideoPlayerView;
+			sourceTree = "<group>";
+		};
+		BE46BDA51C6300910073D9E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BDA61C6300910073D9E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE46BDBE1C6300910073D9E8 /* XFZVideoPlayerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BDBF1C6300910073D9E8 /* XFZVideoPlayerViewTests.m */,
+				BE46BDC11C6300910073D9E8 /* Info.plist */,
+			);
+			path = XFZVideoPlayerViewTests;
+			sourceTree = "<group>";
+		};
+		BE46BDC91C6300910073D9E8 /* XFZVideoPlayerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BDCA1C6300910073D9E8 /* XFZVideoPlayerViewUITests.m */,
+				BE46BDCC1C6300910073D9E8 /* Info.plist */,
+			);
+			path = XFZVideoPlayerViewUITests;
+			sourceTree = "<group>";
+		};
+		BE46BDD81C6300990073D9E8 /* ViedoPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BDD91C6300990073D9E8 /* XFZVideoOverlayView.h */,
+				BE46BDDA1C6300990073D9E8 /* XFZVideoOverlayView.m */,
+				BE46BDDB1C6300990073D9E8 /* XFZVideoPlayerController.h */,
+				BE46BDDC1C6300990073D9E8 /* XFZVideoPlayerController.m */,
+				BE46BDDD1C6300990073D9E8 /* XFZVideoPlayerView.h */,
+				BE46BDDE1C6300990073D9E8 /* XFZVideoPlayerView.m */,
+				BE46BDDF1C6300990073D9E8 /* XFZVideoRefreshView.h */,
+				BE46BDE01C6300990073D9E8 /* XFZVideoRefreshView.m */,
+				BE46BDE11C6300990073D9E8 /* XFZVideoTimeSlider.h */,
+				BE46BDE21C6300990073D9E8 /* XFZVideoTimeSlider.m */,
+				BE46BDE31C6300990073D9E8 /* XFZVolumeController.h */,
+				BE46BDE41C6300990073D9E8 /* XFZVolumeController.m */,
+			);
+			path = ViedoPlayerView;
+			sourceTree = "<group>";
+		};
+		BE46BDEB1C6300AE0073D9E8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BDEC1C6300AE0073D9E8 /* LICENSE */,
+				BE46BDED1C6300AE0073D9E8 /* Masonry */,
+				BE46BE071C6300AE0073D9E8 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		BE46BDED1C6300AE0073D9E8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BDEE1C6300AE0073D9E8 /* MASCompositeConstraint.h */,
+				BE46BDEF1C6300AE0073D9E8 /* MASCompositeConstraint.m */,
+				BE46BDF01C6300AE0073D9E8 /* MASConstraint+Private.h */,
+				BE46BDF11C6300AE0073D9E8 /* MASConstraint.h */,
+				BE46BDF21C6300AE0073D9E8 /* MASConstraint.m */,
+				BE46BDF31C6300AE0073D9E8 /* MASConstraintMaker.h */,
+				BE46BDF41C6300AE0073D9E8 /* MASConstraintMaker.m */,
+				BE46BDF51C6300AE0073D9E8 /* MASLayoutConstraint.h */,
+				BE46BDF61C6300AE0073D9E8 /* MASLayoutConstraint.m */,
+				BE46BDF71C6300AE0073D9E8 /* Masonry.h */,
+				BE46BDF81C6300AE0073D9E8 /* MASUtilities.h */,
+				BE46BDF91C6300AE0073D9E8 /* MASViewAttribute.h */,
+				BE46BDFA1C6300AE0073D9E8 /* MASViewAttribute.m */,
+				BE46BDFB1C6300AE0073D9E8 /* MASViewConstraint.h */,
+				BE46BDFC1C6300AE0073D9E8 /* MASViewConstraint.m */,
+				BE46BDFD1C6300AE0073D9E8 /* NSArray+MASAdditions.h */,
+				BE46BDFE1C6300AE0073D9E8 /* NSArray+MASAdditions.m */,
+				BE46BDFF1C6300AE0073D9E8 /* NSArray+MASShorthandAdditions.h */,
+				BE46BE001C6300AE0073D9E8 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				BE46BE011C6300AE0073D9E8 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BE46BE021C6300AE0073D9E8 /* View+MASAdditions.h */,
+				BE46BE031C6300AE0073D9E8 /* View+MASAdditions.m */,
+				BE46BE041C6300AE0073D9E8 /* View+MASShorthandAdditions.h */,
+				BE46BE051C6300AE0073D9E8 /* ViewController+MASAdditions.h */,
+				BE46BE061C6300AE0073D9E8 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		BE46BF351C632C170073D9E8 /* UIColor+XFZColor */ = {
+			isa = PBXGroup;
+			children = (
+				BE46BF361C632C170073D9E8 /* UIColor+XFZColor.h */,
+				BE46BF371C632C170073D9E8 /* UIColor+XFZColor.m */,
+			);
+			path = "UIColor+XFZColor";
+			sourceTree = "<group>";
+		};
+		CF1678BB0866570977238E6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				349A7BAEB7A3F366162FD17F /* Pods.debug.xcconfig */,
+				3D3F7B7EB59F2814C334E7A8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E30ED7931985505A4D6997AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				412489899019E4624F24D952 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE46BDA11C6300910073D9E8 /* XFZVideoPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE46BDCF1C6300910073D9E8 /* Build configuration list for PBXNativeTarget "XFZVideoPlayerView" */;
+			buildPhases = (
+				AC8F3CC2A56F1952326CA669 /* Check Pods Manifest.lock */,
+				BE46BD9E1C6300910073D9E8 /* Sources */,
+				BE46BD9F1C6300910073D9E8 /* Frameworks */,
+				BE46BDA01C6300910073D9E8 /* Resources */,
+				6B6EE96BC74A0430A9033559 /* Embed Pods Frameworks */,
+				D91D26F60939473788BD8134 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFZVideoPlayerView;
+			productName = XFZVideoPlayerView;
+			productReference = BE46BDA21C6300910073D9E8 /* XFZVideoPlayerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE46BDBA1C6300910073D9E8 /* XFZVideoPlayerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE46BDD21C6300910073D9E8 /* Build configuration list for PBXNativeTarget "XFZVideoPlayerViewTests" */;
+			buildPhases = (
+				BE46BDB71C6300910073D9E8 /* Sources */,
+				BE46BDB81C6300910073D9E8 /* Frameworks */,
+				BE46BDB91C6300910073D9E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE46BDBD1C6300910073D9E8 /* PBXTargetDependency */,
+			);
+			name = XFZVideoPlayerViewTests;
+			productName = XFZVideoPlayerViewTests;
+			productReference = BE46BDBB1C6300910073D9E8 /* XFZVideoPlayerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE46BDC51C6300910073D9E8 /* XFZVideoPlayerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE46BDD51C6300910073D9E8 /* Build configuration list for PBXNativeTarget "XFZVideoPlayerViewUITests" */;
+			buildPhases = (
+				BE46BDC21C6300910073D9E8 /* Sources */,
+				BE46BDC31C6300910073D9E8 /* Frameworks */,
+				BE46BDC41C6300910073D9E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE46BDC81C6300910073D9E8 /* PBXTargetDependency */,
+			);
+			name = XFZVideoPlayerViewUITests;
+			productName = XFZVideoPlayerViewUITests;
+			productReference = BE46BDC61C6300910073D9E8 /* XFZVideoPlayerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE46BD9A1C6300910073D9E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xfz;
+				TargetAttributes = {
+					BE46BDA11C6300910073D9E8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BE46BDBA1C6300910073D9E8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BE46BDA11C6300910073D9E8;
+					};
+					BE46BDC51C6300910073D9E8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BE46BDA11C6300910073D9E8;
+					};
+				};
+			};
+			buildConfigurationList = BE46BD9D1C6300910073D9E8 /* Build configuration list for PBXProject "XFZVideoPlayerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE46BD991C6300910073D9E8;
+			productRefGroup = BE46BDA31C6300910073D9E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE46BDA11C6300910073D9E8 /* XFZVideoPlayerView */,
+				BE46BDBA1C6300910073D9E8 /* XFZVideoPlayerViewTests */,
+				BE46BDC51C6300910073D9E8 /* XFZVideoPlayerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE46BDA01C6300910073D9E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE46BDB51C6300910073D9E8 /* LaunchScreen.storyboard in Resources */,
+				BE46BDB21C6300910073D9E8 /* Assets.xcassets in Resources */,
+				BE46BE081C6300AE0073D9E8 /* LICENSE in Resources */,
+				BE46BDB01C6300910073D9E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE46BDB91C6300910073D9E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE46BDC41C6300910073D9E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B6EE96BC74A0430A9033559 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC8F3CC2A56F1952326CA669 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D91D26F60939473788BD8134 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE46BD9E1C6300910073D9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE46BE0E1C6300AE0073D9E8 /* MASViewConstraint.m in Sources */,
+				BE46BDE91C6300990073D9E8 /* XFZVideoTimeSlider.m in Sources */,
+				BE46BE131C6300AE0073D9E8 /* README.md in Sources */,
+				BE46BF381C632C170073D9E8 /* UIColor+XFZColor.m in Sources */,
+				BE46BE0D1C6300AE0073D9E8 /* MASViewAttribute.m in Sources */,
+				BE46BDE51C6300990073D9E8 /* XFZVideoOverlayView.m in Sources */,
+				BE46BDAD1C6300910073D9E8 /* ViewController.m in Sources */,
+				BE46BDE61C6300990073D9E8 /* XFZVideoPlayerController.m in Sources */,
+				BE46BE091C6300AE0073D9E8 /* MASCompositeConstraint.m in Sources */,
+				BE46BE0B1C6300AE0073D9E8 /* MASConstraintMaker.m in Sources */,
+				BE46BE111C6300AE0073D9E8 /* View+MASAdditions.m in Sources */,
+				BE46BE0C1C6300AE0073D9E8 /* MASLayoutConstraint.m in Sources */,
+				BE46BE121C6300AE0073D9E8 /* ViewController+MASAdditions.m in Sources */,
+				BE46BE0A1C6300AE0073D9E8 /* MASConstraint.m in Sources */,
+				BE46BDAA1C6300910073D9E8 /* AppDelegate.m in Sources */,
+				BE46BDEA1C6300990073D9E8 /* XFZVolumeController.m in Sources */,
+				BE46BE0F1C6300AE0073D9E8 /* NSArray+MASAdditions.m in Sources */,
+				BE46BE101C6300AE0073D9E8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BE46BDE71C6300990073D9E8 /* XFZVideoPlayerView.m in Sources */,
+				BE46BDE81C6300990073D9E8 /* XFZVideoRefreshView.m in Sources */,
+				BE46BDA71C6300910073D9E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE46BDB71C6300910073D9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE46BDC01C6300910073D9E8 /* XFZVideoPlayerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE46BDC21C6300910073D9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE46BDCB1C6300910073D9E8 /* XFZVideoPlayerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE46BDBD1C6300910073D9E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE46BDA11C6300910073D9E8 /* XFZVideoPlayerView */;
+			targetProxy = BE46BDBC1C6300910073D9E8 /* PBXContainerItemProxy */;
+		};
+		BE46BDC81C6300910073D9E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE46BDA11C6300910073D9E8 /* XFZVideoPlayerView */;
+			targetProxy = BE46BDC71C6300910073D9E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE46BDAE1C6300910073D9E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE46BDAF1C6300910073D9E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE46BDB31C6300910073D9E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE46BDB41C6300910073D9E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE46BDCD1C6300910073D9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE46BDCE1C6300910073D9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE46BDD01C6300910073D9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349A7BAEB7A3F366162FD17F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XFZVideoPlayerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfz.XFZVideoPlayerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE46BDD11C6300910073D9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3F7B7EB59F2814C334E7A8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XFZVideoPlayerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfz.XFZVideoPlayerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE46BDD31C6300910073D9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XFZVideoPlayerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfz.XFZVideoPlayerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XFZVideoPlayerView.app/XFZVideoPlayerView";
+			};
+			name = Debug;
+		};
+		BE46BDD41C6300910073D9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XFZVideoPlayerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfz.XFZVideoPlayerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XFZVideoPlayerView.app/XFZVideoPlayerView";
+			};
+			name = Release;
+		};
+		BE46BDD61C6300910073D9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XFZVideoPlayerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfz.XFZVideoPlayerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XFZVideoPlayerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BE46BDD71C6300910073D9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XFZVideoPlayerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfz.XFZVideoPlayerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XFZVideoPlayerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE46BD9D1C6300910073D9E8 /* Build configuration list for PBXProject "XFZVideoPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE46BDCD1C6300910073D9E8 /* Debug */,
+				BE46BDCE1C6300910073D9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE46BDCF1C6300910073D9E8 /* Build configuration list for PBXNativeTarget "XFZVideoPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE46BDD01C6300910073D9E8 /* Debug */,
+				BE46BDD11C6300910073D9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE46BDD21C6300910073D9E8 /* Build configuration list for PBXNativeTarget "XFZVideoPlayerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE46BDD31C6300910073D9E8 /* Debug */,
+				BE46BDD41C6300910073D9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE46BDD51C6300910073D9E8 /* Build configuration list for PBXNativeTarget "XFZVideoPlayerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE46BDD61C6300910073D9E8 /* Debug */,
+				BE46BDD71C6300910073D9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE46BD9A1C6300910073D9E8 /* Project object */;
+}
